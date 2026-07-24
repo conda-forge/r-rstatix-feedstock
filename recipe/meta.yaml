@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rstatix_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rstatix/rstatix_{{ version }}.tar.gz
-  sha256: a1f02ce86993ec8cb6c775a182a2f4a13b5032e751b4d4b7152cf0118c8bf6ac
+  sha256: b71a99d3cebdcf9acb96b2ce97bee12df618c7e1875aabb7851f3fc8e0b5dd19
 
 build:
   number: 0
